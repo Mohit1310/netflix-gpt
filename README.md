@@ -1,0 +1,63 @@
+# Netflix-GPT
+
+- Create Vite app
+- Configure Tailwind
+- Header
+- Routing of App
+- Login
+- Sign up form
+- Form validation
+- useRef
+- Firebase setup
+- Deploying our app to production
+- Create SignUp User Account
+- Implement SignIn user API
+- Created Redux Store with userSlice
+- Implemented Sign out
+- Update Profile
+- BugFix: Sign up user displayName and photoURL update
+- BugFix: If the user is not signed in ####redirect to /browse to login page and vice-versa
+- Unsubscribed to onAuthStateChanged
+- Add hardcoded values to constants file
+- Register TMDB API & create an app & get access token
+- Get Data from TMDB now playing movies lsit API
+- Custome hook for Now Playing Movies
+- Create movieSlice
+- Update Store with movies data
+- Planning from MainContainer and SecondaryContainer
+- Fetch data for Trailer video
+- Update Store with trailer video data
+- Embedded the YouTube video and make it autoplay and muted
+- Tailwind classes to look MainContainer awesome
+- Build SecondaryContainer
+- Build Movie List
+- Build Movie Card
+- TMDB Image CDN URL
+- Made Browse page amazing with Tailwind CSS
+- usePopularMovies Custome hook
+- GPT search feature
+- GPT Search bar
+- ##Multi-language feature in our App
+- Get Rapid AI API key
+- Gpt search API call
+- fetched gptMoviesSuggestions from TMDB
+- create gptSlice added data
+- Reused MovieList component to make movie suggestion container
+- Memoization
+- Added .env file and it to .gitignore
+- Made our site responsive
+
+# Features
+- Login/Sign up
+    - Sign In / Sign Up Form
+    - Redirect to Browse Page
+- Browse (after authentication)
+    -Header
+    -Main Movie
+        - Trailer in the background
+        - Title & Description
+        - Movie suggestions
+            - MovieLists * N
+- NetflixGPT
+    - Search Bar
+    - Movie Suggestions
